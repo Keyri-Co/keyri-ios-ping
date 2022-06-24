@@ -1,0 +1,6 @@
+framework module Pods_KeyriPing {
+  umbrella header "Pods-KeyriPing-umbrella.h"
+
+  export *
+  module * { export * }
+}

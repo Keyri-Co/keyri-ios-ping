@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1620C2FB091009315A254672 /* Pods_KeyriPingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB0736C4C31AAE43FC17EE /* Pods_KeyriPingTests.framework */; };
+		2045A1F82866384600860FB3 /* KeyriPingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A1F72866384600860FB3 /* KeyriPingApp.swift */; };
+		2045A1FA2866384600860FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A1F92866384600860FB3 /* ContentView.swift */; };
+		2045A1FC2866384700860FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A1FB2866384700860FB3 /* Assets.xcassets */; };
+		2045A1FF2866384700860FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A1FE2866384700860FB3 /* Preview Assets.xcassets */; };
+		2045A2092866384700860FB3 /* KeyriPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A2082866384700860FB3 /* KeyriPingTests.swift */; };
+		2045A2132866384700860FB3 /* KeyriPingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A2122866384700860FB3 /* KeyriPingUITests.swift */; };
+		2045A2152866384700860FB3 /* KeyriPingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A2142866384700860FB3 /* KeyriPingUITestsLaunchTests.swift */; };
+		901A7E520B4A0329AA3095F0 /* Pods_KeyriPing_KeyriPingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AAA14A7155D8436B46C664 /* Pods_KeyriPing_KeyriPingUITests.framework */; };
+		94F1FAACCB7352FAA6666AE6 /* Pods_KeyriPing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDCA7924BDD7E13081AA55D /* Pods_KeyriPing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2045A2052866384700860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A1EC2866384600860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A1F32866384600860FB3;
+			remoteInfo = KeyriPing;
+		};
+		2045A20F2866384700860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A1EC2866384600860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A1F32866384600860FB3;
+			remoteInfo = KeyriPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A6A56F02E9C0F6E7E0E8C6 /* Pods-KeyriPing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPing.debug.xcconfig"; path = "Target Support Files/Pods-KeyriPing/Pods-KeyriPing.debug.xcconfig"; sourceTree = "<group>"; };
+		2045A1F42866384600860FB3 /* KeyriPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyriPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A1F72866384600860FB3 /* KeyriPingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingApp.swift; sourceTree = "<group>"; };
+		2045A1F92866384600860FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2045A1FB2866384700860FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2045A1FE2866384700860FB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2045A2042866384700860FB3 /* KeyriPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A2082866384700860FB3 /* KeyriPingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingTests.swift; sourceTree = "<group>"; };
+		2045A20E2866384700860FB3 /* KeyriPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A2122866384700860FB3 /* KeyriPingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingUITests.swift; sourceTree = "<group>"; };
+		2045A2142866384700860FB3 /* KeyriPingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25BB0736C4C31AAE43FC17EE /* Pods_KeyriPingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriPingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B870073F1A7565A0104660 /* Pods-KeyriPingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPingTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriPingTests/Pods-KeyriPingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AAA14A7155D8436B46C664 /* Pods_KeyriPing_KeyriPingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriPing_KeyriPingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7E7056A03631849716581C /* Pods-KeyriPing-KeyriPingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPing-KeyriPingUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyriPing-KeyriPingUITests/Pods-KeyriPing-KeyriPingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFDCA7924BDD7E13081AA55D /* Pods_KeyriPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AB4C66C17CA4279CB45BE7 /* Pods-KeyriPing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPing.release.xcconfig"; path = "Target Support Files/Pods-KeyriPing/Pods-KeyriPing.release.xcconfig"; sourceTree = "<group>"; };
+		DFF1F4C023273F29AD8F0FFE /* Pods-KeyriPingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPingTests.release.xcconfig"; path = "Target Support Files/Pods-KeyriPingTests/Pods-KeyriPingTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEE931B3899752BC3E7C8A34 /* Pods-KeyriPing-KeyriPingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPing-KeyriPingUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriPing-KeyriPingUITests/Pods-KeyriPing-KeyriPingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2045A1F12866384600860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F1FAACCB7352FAA6666AE6 /* Pods_KeyriPing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A2012866384700860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1620C2FB091009315A254672 /* Pods_KeyriPingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A20B2866384700860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901A7E520B4A0329AA3095F0 /* Pods_KeyriPing_KeyriPingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2045A1EB2866384600860FB3 = {
+			isa = PBXGroup;
+			children = (
+				2045A1F62866384600860FB3 /* KeyriPing */,
+				2045A2072866384700860FB3 /* KeyriPingTests */,
+				2045A2112866384700860FB3 /* KeyriPingUITests */,
+				2045A1F52866384600860FB3 /* Products */,
+				4A3019FC2E18C94B17174861 /* Pods */,
+				34BD6B94F04B3724E181740F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2045A1F52866384600860FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2045A1F42866384600860FB3 /* KeyriPing.app */,
+				2045A2042866384700860FB3 /* KeyriPingTests.xctest */,
+				2045A20E2866384700860FB3 /* KeyriPingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2045A1F62866384600860FB3 /* KeyriPing */ = {
+			isa = PBXGroup;
+			children = (
+				2045A1F72866384600860FB3 /* KeyriPingApp.swift */,
+				2045A1F92866384600860FB3 /* ContentView.swift */,
+				2045A1FB2866384700860FB3 /* Assets.xcassets */,
+				2045A1FD2866384700860FB3 /* Preview Content */,
+			);
+			path = KeyriPing;
+			sourceTree = "<group>";
+		};
+		2045A1FD2866384700860FB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2045A1FE2866384700860FB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2045A2072866384700860FB3 /* KeyriPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A2082866384700860FB3 /* KeyriPingTests.swift */,
+			);
+			path = KeyriPingTests;
+			sourceTree = "<group>";
+		};
+		2045A2112866384700860FB3 /* KeyriPingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A2122866384700860FB3 /* KeyriPingUITests.swift */,
+				2045A2142866384700860FB3 /* KeyriPingUITestsLaunchTests.swift */,
+			);
+			path = KeyriPingUITests;
+			sourceTree = "<group>";
+		};
+		34BD6B94F04B3724E181740F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCA7924BDD7E13081AA55D /* Pods_KeyriPing.framework */,
+				A4AAA14A7155D8436B46C664 /* Pods_KeyriPing_KeyriPingUITests.framework */,
+				25BB0736C4C31AAE43FC17EE /* Pods_KeyriPingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A3019FC2E18C94B17174861 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11A6A56F02E9C0F6E7E0E8C6 /* Pods-KeyriPing.debug.xcconfig */,
+				D9AB4C66C17CA4279CB45BE7 /* Pods-KeyriPing.release.xcconfig */,
+				EEE931B3899752BC3E7C8A34 /* Pods-KeyriPing-KeyriPingUITests.debug.xcconfig */,
+				CB7E7056A03631849716581C /* Pods-KeyriPing-KeyriPingUITests.release.xcconfig */,
+				57B870073F1A7565A0104660 /* Pods-KeyriPingTests.debug.xcconfig */,
+				DFF1F4C023273F29AD8F0FFE /* Pods-KeyriPingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2045A1F32866384600860FB3 /* KeyriPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A2182866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPing" */;
+			buildPhases = (
+				A20A1E282D219670A06CF4EE /* [CP] Check Pods Manifest.lock */,
+				2045A1F02866384600860FB3 /* Sources */,
+				2045A1F12866384600860FB3 /* Frameworks */,
+				2045A1F22866384600860FB3 /* Resources */,
+				241ABBCE81CB93924EA6654E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyriPing;
+			productName = KeyriPing;
+			productReference = 2045A1F42866384600860FB3 /* KeyriPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2045A2032866384700860FB3 /* KeyriPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A21B2866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPingTests" */;
+			buildPhases = (
+				B3DE916A00534D4DD9A53AF9 /* [CP] Check Pods Manifest.lock */,
+				2045A2002866384700860FB3 /* Sources */,
+				2045A2012866384700860FB3 /* Frameworks */,
+				2045A2022866384700860FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A2062866384700860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriPingTests;
+			productName = KeyriPingTests;
+			productReference = 2045A2042866384700860FB3 /* KeyriPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2045A20D2866384700860FB3 /* KeyriPingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A21E2866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPingUITests" */;
+			buildPhases = (
+				5986461774ED66D74C58E408 /* [CP] Check Pods Manifest.lock */,
+				2045A20A2866384700860FB3 /* Sources */,
+				2045A20B2866384700860FB3 /* Frameworks */,
+				2045A20C2866384700860FB3 /* Resources */,
+				D1A136DB0C8769AD3AC4CDC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A2102866384700860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriPingUITests;
+			productName = KeyriPingUITests;
+			productReference = 2045A20E2866384700860FB3 /* KeyriPingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2045A1EC2866384600860FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2045A1F32866384600860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2045A2032866384700860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A1F32866384600860FB3;
+					};
+					2045A20D2866384700860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A1F32866384600860FB3;
+					};
+				};
+			};
+			buildConfigurationList = 2045A1EF2866384600860FB3 /* Build configuration list for PBXProject "KeyriPing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2045A1EB2866384600860FB3;
+			productRefGroup = 2045A1F52866384600860FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2045A1F32866384600860FB3 /* KeyriPing */,
+				2045A2032866384700860FB3 /* KeyriPingTests */,
+				2045A20D2866384700860FB3 /* KeyriPingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2045A1F22866384600860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A1FF2866384700860FB3 /* Preview Assets.xcassets in Resources */,
+				2045A1FC2866384700860FB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A2022866384700860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A20C2866384700860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		241ABBCE81CB93924EA6654E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriPing/Pods-KeyriPing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriPing/Pods-KeyriPing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriPing/Pods-KeyriPing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5986461774ED66D74C58E408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriPing-KeyriPingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20A1E282D219670A06CF4EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriPing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3DE916A00534D4DD9A53AF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriPingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A136DB0C8769AD3AC4CDC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriPing-KeyriPingUITests/Pods-KeyriPing-KeyriPingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriPing-KeyriPingUITests/Pods-KeyriPing-KeyriPingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriPing-KeyriPingUITests/Pods-KeyriPing-KeyriPingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2045A1F02866384600860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A1FA2866384600860FB3 /* ContentView.swift in Sources */,
+				2045A1F82866384600860FB3 /* KeyriPingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A2002866384700860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A2092866384700860FB3 /* KeyriPingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A20A2866384700860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A2132866384700860FB3 /* KeyriPingUITests.swift in Sources */,
+				2045A2152866384700860FB3 /* KeyriPingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2045A2062866384700860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A1F32866384600860FB3 /* KeyriPing */;
+			targetProxy = 2045A2052866384700860FB3 /* PBXContainerItemProxy */;
+		};
+		2045A2102866384700860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A1F32866384600860FB3 /* KeyriPing */;
+			targetProxy = 2045A20F2866384700860FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2045A2162866384700860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2045A2172866384700860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2045A2192866384700860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A6A56F02E9C0F6E7E0E8C6 /* Pods-KeyriPing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriPing/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2045A21A2866384700860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AB4C66C17CA4279CB45BE7 /* Pods-KeyriPing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriPing/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2045A21C2866384700860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B870073F1A7565A0104660 /* Pods-KeyriPingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriPing.app/KeyriPing";
+			};
+			name = Debug;
+		};
+		2045A21D2866384700860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF1F4C023273F29AD8F0FFE /* Pods-KeyriPingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriPing.app/KeyriPing";
+			};
+			name = Release;
+		};
+		2045A21F2866384700860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE931B3899752BC3E7C8A34 /* Pods-KeyriPing-KeyriPingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriPing;
+			};
+			name = Debug;
+		};
+		2045A2202866384700860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7E7056A03631849716581C /* Pods-KeyriPing-KeyriPingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriPing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2045A1EF2866384600860FB3 /* Build configuration list for PBXProject "KeyriPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A2162866384700860FB3 /* Debug */,
+				2045A2172866384700860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A2182866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A2192866384700860FB3 /* Debug */,
+				2045A21A2866384700860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A21B2866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A21C2866384700860FB3 /* Debug */,
+				2045A21D2866384700860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A21E2866384700860FB3 /* Build configuration list for PBXNativeTarget "KeyriPingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A21F2866384700860FB3 /* Debug */,
+				2045A2202866384700860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2045A1EC2866384600860FB3 /* Project object */;
+}
