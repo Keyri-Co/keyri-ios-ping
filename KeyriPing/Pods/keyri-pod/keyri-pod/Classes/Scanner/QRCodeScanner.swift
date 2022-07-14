@@ -129,7 +129,7 @@ public class QRCodeScannerController: UIViewController, AVCaptureMetadataOutputO
         setupCaptureSession(devicePosition) //Default device capture position is rear
         addViedoPreviewLayer(view)
         createCornerFrame()
-        addButtons(view)
+        // addButtons(view)
     }
     
     //Creates corner rectagle frame with green coloe(default color)
@@ -143,13 +143,6 @@ public class QRCodeScannerController: UIViewController, AVCaptureMetadataOutputO
                 y: self.view.frame.midY - (width+bottomSpace)/2),
             size: CGSize.init(width: width, height: height))
         self.squareView = SquareView(frame: rect)
-        if let squareView = squareView {
-            self.view.backgroundColor = UIColor(white: 0.0, alpha: 0.5)
-            squareView.autoresizingMask = UIView.AutoresizingMask(rawValue: UInt(0.0))
-            self.view.addSubview(squareView)
-            
-            addMaskLayerToVideoPreviewLayerAndAddText(rect: rect)
-        }
     }
     
     func addMaskLayerToVideoPreviewLayerAndAddText(rect: CGRect) {

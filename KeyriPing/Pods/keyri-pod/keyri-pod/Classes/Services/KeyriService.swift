@@ -15,12 +15,18 @@ public class KeyriService {
             return
         }
 
-        let task = URLSession.shared.dataTask(with: url) {(data, _, error) in
+        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+            print(response)
             guard let data = data else {
                 completionHandler(.failure(KeyriErrors.networkError))
                 return
                 
             }
+            do{
+                let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
+                print(json)
+            }catch{ print("erroMsg") }
+
 
             completionHandler(.success(data))
         }

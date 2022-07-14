@@ -1,5 +1,5 @@
 PODS:
-  - keyri-pod (1.0.4)
+  - keyri-pod (1.0.7)
 
 DEPENDENCIES:
   - keyri-pod
@@ -9,7 +9,7 @@ SPEC REPOS:
     - keyri-pod
 
 SPEC CHECKSUMS:
-  keyri-pod: 3a118f7803d50d1ddd1579025046d0e15876b2af
+  keyri-pod: b4fbdc05368a071ec72abc24e5be2aaf277e4e1e
 
 PODFILE CHECKSUM: dc69eeec1f411965420b88c33ad52a2e9559e647
 

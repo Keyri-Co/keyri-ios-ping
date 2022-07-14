@@ -114,6 +114,7 @@ class HandleQR {
             switch res {
             case .success(var session):
                 // You can optionally create a custom screen and pass the session ID there. We recommend this approach for large enterprises
+                print(payload)
                 session.payload = payload
 
                 // In a real world example you’d wait for user confirmation first

@@ -27,21 +27,22 @@ public struct Session: Codable {
     
     public func deny() throws {
         do {
-            try sendPOST(success: false)
+            try sendPOST(denial: true)
         } catch {
             throw error
         }
     }
     
     public func confirm() throws {
+        print("hello")
         do {
-            try sendPOST(success: true)
+            try sendPOST(denial: false)
         } catch {
             throw error
         }
     }
     
-    private func sendPOST(success: Bool) throws {
+    private func sendPOST(denial: Bool) throws {
         let enc = EncryptionUtil()
         let keySet = enc.deriveKeys(from: browserPublicKey)
         guard let keySet = keySet else {
@@ -64,7 +65,7 @@ public struct Session: Codable {
         let json: [String: Any] = [
             "__salt": __salt,
             "__hash": __hash,
-            "errors": success.description,
+            "errors": "",
             "errorMsg": "",
             "apiData": [
                 "publicUserId": userID,
@@ -104,5 +105,4 @@ public struct Session: Codable {
      }
      */
 }
-
 

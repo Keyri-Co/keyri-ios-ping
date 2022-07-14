@@ -48,6 +48,7 @@
 		2045A20E2866384700860FB3 /* KeyriPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2045A2122866384700860FB3 /* KeyriPingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingUITests.swift; sourceTree = "<group>"; };
 		2045A2142866384700860FB3 /* KeyriPingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriPingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		204C25A2287BA7D7002F96FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		25BB0736C4C31AAE43FC17EE /* Pods_KeyriPingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriPingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B870073F1A7565A0104660 /* Pods-KeyriPingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriPingTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriPingTests/Pods-KeyriPingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4AAA14A7155D8436B46C664 /* Pods_KeyriPing_KeyriPingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriPing_KeyriPingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +112,7 @@
 		2045A1F62866384600860FB3 /* KeyriPing */ = {
 			isa = PBXGroup;
 			children = (
+				204C25A2287BA7D7002F96FD /* Info.plist */,
 				2045A1F72866384600860FB3 /* KeyriPingApp.swift */,
 				2045A1F92866384600860FB3 /* ContentView.swift */,
 				2045A1FB2866384700860FB3 /* Assets.xcassets */,
@@ -164,7 +166,6 @@
 				57B870073F1A7565A0104660 /* Pods-KeyriPingTests.debug.xcconfig */,
 				DFF1F4C023273F29AD8F0FFE /* Pods-KeyriPingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -564,12 +565,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KeyriPing/Preview Content\"";
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyriPing/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera for the QR scanner";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -579,9 +583,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,12 +599,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KeyriPing/Preview Content\"";
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyriPing/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera for the QR scanner";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -609,9 +617,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,7 +638,7 @@
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -650,7 +659,7 @@
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -669,7 +678,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -688,7 +697,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B275BMKQL6;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriPingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
